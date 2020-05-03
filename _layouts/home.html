@@ -28,15 +28,15 @@ layout: default
         {{ content }}
 
         <h1 class="post-title">So, you want to know who I am.</h2>
-        <p>Blah blah blah about myself. I'm a technologist, policy enthusiast, and a voracious reader of news (and occasionally books). Head to the
+        <p>I'm a technologist, policy enthusiast, and a devourer of food and news (and occasionally books and blogs). Head to the
         <a href="{{"/about" | relative_url }}" style="text-decoration:underline;">About Section</a>
-        if you want to learn more.</p>
+        to learn more!</p>
 
-        <p>When I get a chance, I also try to write and take photos...</p>
+        <p>When I get a chance, I also try to <a href="{{"/posts" | relative_url }}">write</a> and <a href="{{"/photography" | relative_url }}">take photos</a>.</p>
 
         <br>
 
-        <h1 class="post-title">Recent Blog Posts</h1>
+        <h1 class="post-title">Recent Posts</h1>
 
         <!-- Home Post List -->
         {% for post in site.posts limit : 5 %}
